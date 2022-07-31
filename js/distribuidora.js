@@ -12,3 +12,12 @@ let numeroB = 3
 let resultado = numeroA / numeroB 
 let empresa = Nombre + " " + Apellido 
 
+
+
+let nombreCompleto = "martin cavigliasso"
+let visualizarNombreCompleto = "john smith" 
+
+let total = 200 
+let totalConiva = total * 1.21 
+let total_con_iva = 252525
+const IVA21 = 1.21 
