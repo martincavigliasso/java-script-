@@ -15,7 +15,7 @@ let empresa = Nombre + " " + Apellido
 
 
 let nombreCompleto = "martin cavigliasso"
-let visualizarNombreCompleto = "john smith" 
+let visualizarNombreCompleto = "martin cavigliasso" 
 
 let total = 200 
 let totalConiva = total * 1.21 
