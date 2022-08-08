@@ -1,3 +1,5 @@
+//calculadora funcion
+
 function calcular () {
     let primerNro = parseInt (prompt("Ingresa el primer nro"))
     let segundoNro = parseInt( prompt ("Ingresa el segundo nro"))
@@ -26,3 +28,6 @@ function realizarCalculo( num1, num2, ope) {
     
    }  
 }
+console.log('calculadora');
+calcular()
+
