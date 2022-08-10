@@ -26,6 +26,7 @@ function agregarAlCarrito() {
     
 }
 agregarAlCarrito()
+
 function actualizarCarrito() {
     console.log('cantidad de productos agregados ' + carritoDeCompras.length)
     let suma = carritoDeCompras.reduce((acc, el) => acc + el.precio, 0)

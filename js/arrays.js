@@ -5,26 +5,27 @@ const productos = ['aceitunas' , 'salsas' , 'masitas' , 'harinas' , 'aceites']
 
 const carrito = []
 
-function listaCiudades(){
+function listaProductos(){
     //debugger
     toal = parseInt (prompt("ingresa un nro."))
     if (productos.length < total)
     for(let i = 0; i < total; i++){
         console.log(productos[i])
     }
-} 
+}
+listaProductos()
+
 
 function agregarProductos(){
     let nuevoProductos = prompt("ingresa el nuevo producto:")
-     productos.push(nuevoProducto)
+     productos.push(nuevoProductos)
 } 
 
-function quitarPoductos () {
-
-}
+agregarProductos()
 
 function quitarPoductos(){
     let aQuitar =  parseInt(prompt ("ingrese el ID del producto a quitar"))
-    let resultado = paises.splice (aQuitar, 3)
+    let resultado = productos.splice (aQuitar, 3)
     console.warn ("se elimino el producto:", resultado)
 }
+quitarPoductos()
